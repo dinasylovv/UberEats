@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{ box-sizing:border-box; }
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+}
+
+/* Header starts */
+
+header {
+	margin-top: 8px;
+}
+
+.header-hr {
+	max-width: 100%;
+	margin-bottom: 32px;
+}
+
+.btn {
+    font-size: 13px;
+    line-height: 13px;
+    font-weight: 500;
+    padding: 14px 20px;
+    margin-right: 10px;
+    background-color: #fff;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 4px;
+}
+
+
+/* Header ends */
+
+/* Main starts */
+/* Intro starts */
+
+.banner-container {
+    background: url(../src/traktir.jpg) no-repeat 50% 50%;
+    background-size: cover;
+}
+
+@media screen and (max-width: 575px) {
+    h1 {
+        font-size: 24px;
+        margin-bottom: 40px;
+        line-height: 28px;
+    }
+
+    .banner .food-name {
+    margin-bottom: 16px;
+    }
+
+    .banner-time {
+        margin: 0 auto;
+    }
+
+    .banner-card {
+        display: grid;
+        text-align: center;
+        position: relative;
+        left: 0;
+        top: 140px;
+        box-shadow: 0px 5px 5px 0px rgb(175 175 175 / 22%);
+    }
+
+    .banner-card {
+        margin: 0 8px;
+        padding: 24px 48px;
+    }
+
+}
+
+
+
+.banner {
+    margin-top: 72px;
+    padding: 80px 0;
+}
+
+.banner-card {
+    background-color: white;
+    text-align: left;
+    padding: 38px 48px;
+}
+
+h1 {
+    font-size: 34px;
+    line-height: 42px;
+    font-weight: 400;
+    margin: 0;
+    margin-bottom: 54px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.food-name {
+    font-size: 14px;
+    line-height: 21px;
+    color: #626262;
+    margin: 0 0 4px 0;
+}
+
+.banner-time {
+    background-color: black;
+    color: white;
+    float: right;
+    text-align: center;
+    font-size: 12px;
+    line-height: 32px;
+    border-radius: 16px;
+    width: 94px;
+    height: 32px;
+    box-sizing: border-box;
+}
+
+/* Intro ends */
+
+/* Nav starts */
+
+nav {
+    height: 80px;
+}
+
+.nav-elements {
+    padding-top: 32px;
+    padding-bottom: 20px;
+}
+
+.navbar-element {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #626262
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #626262
+}
+
+.nav-link-active {
+    color: #327430;
+    text-decoration: none;
+}
+
+hr {
+    max-width: 100%;
+    margin-bottom: 32px;
+}
+
+/* Nav ends */
+
+/* Dishes start */
+
+.dishes {
+    margin-top: 56px;
+}
+
+.dishes-title {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 34px;
+    color: #1D1D1D;
+}
+
+.dish-card {
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 49px;
+    padding-right: 0
+}
+
+.left-part {
+    display: flex;
+    flex-direction: column;
+}
+
+.dish-card-subtitles {
+    padding-top: 16px;
+    padding-left: 16px;
+}
+
+@media screen and (max-width: 575px) {
+    .dish-card-price-subtitle {
+        margin-top: 16px;
+    }
+
+    .dish-card-upper-subtitles {
+        padding: 0;
+        justify-content: flex-start;
+        text-align: left;
+    }
+
+    .dish-card {
+        margin-bottom: 0;
+    }
+
+    .dish-card-pic {
+        width: 102px;
+        height: 102px;
+    }
+
+}
+
+.dish-card-main-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1D1D1D;
+}
+
+.dish-card-secondary-subtitle {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 21px;
+    color: #626262;
+}
+
+.dish-card-price-subtitle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 21px;
+    color: #1D1D1D;
+    margin-top: 58px;
+}
+
+.dish-card-pic {
+    display: block;
+}
+
+/* Dishes end */
+/* Main ends*/
